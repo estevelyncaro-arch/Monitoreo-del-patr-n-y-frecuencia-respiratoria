@@ -1,1 +1,1 @@
-# Monitoreo-del-patr-n-y-frecuencia-respiratoria
+# Monitoreo del patron y frecuencia respiratoria
