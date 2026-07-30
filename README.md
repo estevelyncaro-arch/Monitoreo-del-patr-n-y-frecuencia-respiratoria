@@ -1,3 +1,45 @@
 # Monitoreo del patron y frecuencia respiratoria
 - María Angel Benavides Silva - 5600852 - est.mariaa.benavides@unimilitar.edu.co
 - Evelyn Marcela Caro Rodríguez - 5600848 - est.evelyn.caro@unimilitar.edu.co
+
+## Parte A
+
+La ventilación pulmonar es el proceso mediante el cual se transporta gas desde el entorno hasta los alveolos, su propósito es transportar el oxígeno a los alveolos para permitir el intergambio gaseoso y la expulsión de dióxido de carbono. El flujo de gases puede ser activo o pasivo dependiendo de si es espontáneo, es decir por actividad muscular o mecánico, es decir por un mecanismo externo [3].
+
+Una vez el gas llega al alvéolo, el transporte hacia la sangre depende de la difusión pasiva, regida por la Ley de Fick que establece que la cantidad de gas que atraviesa la membrana es proporcional a la superficie de la misma, a una constante de difusión y a la diferencia de presión parcial, e inversamente proporcional al espesor de la membrana . Clínicamente, se mide la capacidad de difusión del monóxido de carbono (DLCO) para evaluar la superficie vascular disponible para el intercambio [4].
+
+Adicionalmente hay algunas mediciones descritas por los volumenes y capacidades pulmonares siendo los siguientes: 
+
+ - Volúmenes Estáticos: Aquellos que no se movilizan habitualmente, como el Volumen Residual (VR), que es el aire que queda tras una espiración forzada [4]. Su determinación requiere métodos físicos como la pletismografía corporal, basada en la Ley de Boyle (P1⋅V1=P2⋅V2), o el método de dilución de gases inertes como el helio [4].
+ - Volúmenes Dinámicos: Involucran el factor tiempo y se miden mediante espirometría, destacando el VEF1 (Volumen Espiratorio Forzado en el primer segundo) [1].
+ - Capacidades: Son combinaciones de dos o más volúmenes [1]. Por ejemplo, la Capacidad Pulmonar Total (CPT) es la suma de la capacidad vital y el volumen residual [3].
+
+Dentro este proceso respiratorio se encuentran diferentes variables físicas y mecánicas, las cuales se explican a continuación:
+
+- ### Variables físicas:
+  - Presión: Es la relación entre la fuerza y la superficie (P=F/S) y se mide usualmente en cmH2O
+  - Flujo: Es el movimiento de gas por unidad de tiempo, determinado por la relación entre la presión y la resistencia (F=P/R), expresado habitualmente en L/min o L/seg
+  - Volumen:Representa la cantidad de gas que se mueve o que contienen los pulmones, medida en mililitros (ml) o litros (L) 
+  - Tiempo: Es el factor que, al interactuar con el flujo, determina el volumen final alcanzado en un ciclo  [3].
+
+- ### Variables mecánicas
+  - Elasticidad: Es la capacidad de los tejidos pulmonares para volver a su posición inicial tras una deformación; en fisiología, se cuantifica como el cambio de presión respecto al cambio de volumen [3].
+  - Viscosidad: Depende de la fricción interna entre el tejido pulmonar y el gas que circula por las vías aéreas [3].
+  - Tensión Superficial: Es producida por fuerzas cohesivas en la capa de superficie alveolar, las cuales dependen de la curvatura y composición del fluido [3].
+  - Histéresis: Fenómeno donde el efecto de una fuerza sobre el pulmón persiste más allá de la duración de la fuerza misma [3].
+  - Distensibilidad o compliancia: Es la medida de la facilidad con la que el pulmón se expande [4]; matemáticamente es el inverso de la elastancia (D=ΔV/ΔP) [2].
+  - Resistencia : Es el impedimento al flujo de aire causado por el roce con las paredes de las vías aéreas y el tejido funconal de los pulmones [4].
+
+La interacción de estas variables se resume en la ecuación de movimiento del sistema respiratorio, la cual establece que la presión total necesaria para insuflar el pulmón debe ser capaz de vencer la presión resistiva y la presión elástica.
+Presión total = (Flujo × Resistencia) + (Volumen × Elastancia). En ventilación asistida, esta presión total es la suma de la presión generada por los músculos del paciente y la generada por el ventilador [2].
+
+## Referencias 
+
+
+[1] Universidad Abierta Interamericana, Mecánica ventilatoria [En línea]. Disponible en: https://dspaceapi.uai.edu.ar/server/api/core/bitstreams/11584f04-cfc9-422a-a682-486fec1ff9ee/content
+
+[2] Sociedad Catalana de Medicina Intensiva y Crítica (SCARTD), Fisiología respiratoria, 2006. [En línea]. Disponible en: https://scartd.org/arxius/fisioresp06.pdf
+
+[3] Sociedad Catalana de Medicina Intensiva y Crítica (SCARTD), Fisiología respiratoria, 2006. [En línea]. Disponible en: https://scartd.org/arxius/fisioresp06.pdf
+
+[4] Facultad de Medicina, Universidad Nacional Autónoma de México (UNAM), Mecánica de la ventilación pulmonar y espirometría. [En línea]. Disponible en: https://fisiologia.facmed.unam.mx/index.php/mecanica-de-la-ventilacion-pulmonar-espirometria/
