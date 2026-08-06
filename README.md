@@ -224,6 +224,33 @@ save("ResultadosRespiracion.mat","Resultados");
 disp("Proceso finalizado correctamente.")
 ```
 
+El código inicia definiendo una frecuencia de muestreo de 100 Hz y un tiempo de adquisición de 30 segundos. Con estos parámetros se captura la señal y se almacenan los datos para representar gráficamente dos condiciones: 30 segundos en reposo y 30 segundos hablando. Posteriormente, se elimina el offset y la señal se procesa mediante un filtro pasa bajos Butterworth de cuarto orden, con una frecuencia de corte de 2 Hz. Para evitar desfases se aplica la función filtfilt, obteniendo así la señal filtrada.
+
+A continuación, se calcula la Transformada Rápida de Fourier (FFT), con la cual se obtiene el espectro de magnitudes hasta 5 Hz. De este análisis se determina la frecuencia dominante de la señal, que luego se convierte a respiraciones por minuto (RPM_FFT).
+
+El código también implementa un algoritmo de detección de picos, utilizado para identificar las respiraciones. Para ello se emplean dos parámetros:
+
+ -  MinPeakDistance, que asegura que los picos estén separados al menos 1,5 segundos.
+   
+ -  MinPeakProminence, que permite resaltar picos pequeños y evitar falsos positivos.
+
+Con esta detección se cuenta el número de respiraciones y se calcula la frecuencia respiratoria en respiraciones por minuto (RPM_picos). Finalmente, se grafica la señal filtrada con los picos marcados y se presentan cuatro resultados principales:
+
+ 1. Frecuencia dominante (Hz)
+ 2. RPM obtenidas por FFT.
+ 3. Número de respiraciones detectadas.
+ 4. RPM calculadas por detección de picos.
+
+
+
+
+## Parte C
+
+
+
+- ## Preguntas
+
+
 ## Referencias 
 
 
