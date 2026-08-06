@@ -241,7 +241,47 @@ Con esta detección se cuenta el número de respiraciones y se calcula la frecue
  3. Número de respiraciones detectadas.
  4. RPM calculadas por detección de picos.
 
+A continuación se evidencian los resultados obtenidos a partir de las gráficas generadas durante el procesamiento de la señal respiratoria. En ellas se observa la señal adquirida inicialmente, la señal filtrada tras la eliminación del ruido, el espectro de frecuencia con la identificación de la frecuencia dominante y, finalmente, la detección de los ciclos respiratorios mediante el método de picos. 
 
+Empezando con los primeros 30 segundos de respiración en reposo:
+
+1. Señal respiratoria filtrada
+ 
+<img width="1706" height="767" alt="Captura de pantalla 2026-08-06 092802" src="https://github.com/user-attachments/assets/ec16d006-08d8-4546-8f85-2e6cd4f954c6" />
+
+En esta primera gráfica se evidencia que la frecuencia de oscilación se encuentra dentro del rango esperado para una respiración en reposo. La amplitud de la señal se mantiene relativamente baja y estable, lo que sugiere que el movimiento respiratorio no es brusco ni forzado. 
+
+2. Espectro de frecuencia
+
+<img width="1632" height="741" alt="Captura de pantalla 2026-08-06 092810" src="https://github.com/user-attachments/assets/ec496e65-7ba8-4ca7-9371-f8300b709b94" />
+
+En esta gráfica se observa un pico claramente marcado en la frecuencia dominante, mientras que las demás componentes presentan magnitudes considerablemente menores. Este comportamiento confirma que la señal es periódica y estable, lo cual corresponde a un patrón respiratorio regular. Este resultado es consistente con una respiración tranquila en reposo, ya que los valores típicos en adultos suelen encontrarse entre 12 y 20 respiraciones por minuto, aunque pueden variar ligeramente .
+
+3. Respiraciones detectadas
+
+<img width="1740" height="754" alt="Captura de pantalla 2026-08-06 092818" src="https://github.com/user-attachments/assets/aa5ea3e0-8939-4e81-82c9-f304a04a1ae6" />
+
+En esta gráfica se observa que la señal azul mantiene un patrón periódico, reflejando un ritmo respiratorio estable. Los puntos rojos evidencian que el algoritmo logró separar cada ciclo de respiración de manera precisa, respetando la distancia mínima entre picos (≈1,5 segundos). El conteo de estos picos permite calcular el número total de respiraciones en el intervalo y, a partir de ello, obtener las respiraciones por minuto (RPM). 
+
+Siguiendo con los otros 30 segundos de respiración durante la lectura:
+
+1. Señal respiratoria filtrada
+
+<img width="1645" height="771" alt="Captura de pantalla 2026-08-06 093645" src="https://github.com/user-attachments/assets/c3c5f5e6-b87d-4852-b2c6-713b0ecf5e03" />
+
+La amplitud registrada es mayor que en la señal en reposo, lo que sugiere un esfuerzo adicional asociado al habla durante la adquisición. Aunque el ritmo respiratorio conserva un carácter periódico, las variaciones en la forma de onda reflejan una menor uniformidad respecto al reposo. 
+
+2. Espectro de frecuencia
+
+<img width="1672" height="767" alt="Captura de pantalla 2026-08-06 093652" src="https://github.com/user-attachments/assets/6a662eff-b00c-4259-b31a-08f85a081738" />
+
+La mayor concentración de energía se encuentra en las frecuencias bajas, lo cual es característico de las señales respiratorias, ya que el ritmo de la respiración es lento y periódico. El espectro muestra un pico dominante en la zona de bajas frecuencias, indicando la frecuencia principal de la respiración durante la lectura. A medida que la frecuencia aumenta, la magnitud disminuye progresivamente, lo que confirma que las componentes de alta frecuencia fueron atenuadas por el filtrado aplicado.
+
+3. Respiraciones detectadas
+
+<img width="1716" height="780" alt="Captura de pantalla 2026-08-06 093700" src="https://github.com/user-attachments/assets/70e00081-f061-4505-bb61-bc77ad5aa3b5" />
+
+La señal azul presenta una mayor variabilidad en amplitud respecto a la condición en reposo, lo que refleja el esfuerzo adicional asociado al habla durante la adquisición. Los puntos rojos muestran que el algoritmo logró identificar cada ciclo respiratorio de manera precisa, incluso con las irregularidades propias de la lectura. El conteo de estos picos permite calcular el número total de respiraciones en el intervalo y, a partir de ello, obtener las respiraciones por minuto (RPM) en esta condición.
 
 
 ## Parte C
