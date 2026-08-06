@@ -49,6 +49,7 @@ Una vez se verifica el funcionamiento del circuito realizado se procede a realiz
 
 ## Parte B 
 
+Para la captura de la señal respiratoria se desarrolla un código en MATLAB, el cual realiza la adquisición de los datos obtenidos por el sensor, los guarda y los grafica, mostando la señal correspondiente al patrón respiratorio, se filtra la señal para eliminar ruido y se ubican los picos de cada respiración. A continuación se explica detalladamente el código implementado.
 
 
 ## Referencias 
