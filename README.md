@@ -33,11 +33,13 @@ Dentro este proceso respiratorio se encuentran diferentes variables físicas y m
 La interacción de estas variables se resume en la ecuación de movimiento del sistema respiratorio, la cual establece que la presión total necesaria para insuflar el pulmón debe ser capaz de vencer la presión resistiva y la presión elástica.
 Presión total = (Flujo × Resistencia) + (Volumen × Elastancia). En ventilación asistida, esta presión total es la suma de la presión generada por los músculos del paciente y la generada por el ventilador [2].
 
+## 
+
 De acuerdo a la literatura mencionadaa anteriormente se decidió implementar un sensor resistivo FSR-402 junto con una banda elástica con el fin de adquirir la señal respiratoria. El sensor es ubicado en el torax del paciente, al respirar el pecho se expande y aplica una presión al sensor, esta presión hace que disminuya su resistencia aumentando de esta manera el voltaje, por otro lado al exalar esta presión dismminuye aumentando la resistencia del sensor lo que provoca que disminuya el voltaje. 
 
 Para realizar la captura de la señal se realiza un circuito de adquisición y digitalización, lo cual se realiza construyendo un divisor de voltaje con una resistencia de 100 KΩ conectada a un pin del sensor resistivo (FSR-402) al cual vamos a llamar "pin 1"  y así mismo conectada a tierra (GND), el otro pin del sensor "pin 2" se conecta a 5V suministrados por un DAQ, para la lectura de la señal se conecta el "pin 1" a un pin de salida del DAQ como se muestra en las siguientes imágenes.
 
-<img width="1280" height="556" alt="image" src="https://github.com/user-attachments/assets/ac025ecf-7b4d-4a18-9b31-70e4608d9d59" />
+<img width="1280" height="527" alt="image" src="https://github.com/user-attachments/assets/1aba1353-9dd9-46f2-b2f6-bd8aa27e09fc" />
 
 
 <img width="591" height="793" alt="image" src="https://github.com/user-attachments/assets/9cf36eaf-0c93-4d85-a397-f28fe582ea65" />
@@ -46,6 +48,8 @@ Para realizar la captura de la señal se realiza un circuito de adquisición y d
 Una vez se verifica el funcionamiento del circuito realizado se procede a realizar la captura de datos.
 
 ## Parte B 
+
+
 
 ## Referencias 
 
