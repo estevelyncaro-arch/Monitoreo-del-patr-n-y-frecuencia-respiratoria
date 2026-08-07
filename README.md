@@ -286,9 +286,16 @@ La señal azul presenta una mayor variabilidad en amplitud respecto a la condici
 
 ## Parte C
 
+Al comparar las dos adquisiciones de señal respiratoria se evidencian diferencias notorias en el comportamiento de la señal. En la condición de reposo, la señal presenta un patrón oscilatorio regular, con picos y valles bien definidos y una amplitud relativamente baja y estable. Este comportamiento refleja una respiración tranquila y uniforme, lo que facilita tanto el filtrado como la detección automática de picos. El análisis espectral mediante FFT muestra una frecuencia dominante cercana a 0,4 Hz, equivalente a unas 24 respiraciones por minuto, valor que se confirma con el conteo de picos.
+
+En contraste, durante la lectura o el habla, la señal adquiere mayor irregularidad, con variaciones más marcadas en la amplitud y en la forma de onda. Aunque el ritmo respiratorio conserva su periodicidad, las oscilaciones presentan mayor dispersión y menor uniformidad, producto del esfuerzo vocal y la actividad muscular asociada al habla. El espectro de frecuencia mantiene un pico dominante en torno a 0,4 Hz, pero aparecen componentes secundarias más evidentes, lo que indica una mayor complejidad en la señal. Aun así, el algoritmo de detección de picos logra identificar las respiraciones, aunque con irregularidades en la separación y prominencia de los máximos.
+
+- #### Conclusiones
+
+En reposo, la señal se caracteriza por su estabilidad, amplitud baja y patrón oscilatorio uniforme, lo que facilita tanto el filtrado como la detección automática de picos. En contraste, durante la lectura la señal presenta mayor variabilidad en amplitud y forma de onda, reflejando el esfuerzo adicional asociado al habla y la actividad muscular. A pesar de estas diferencias, los resultados obtenidos mediante FFT y detección de picos muestran concordancia en la estimación de la frecuencia respiratoria, confirmando la robustez del sistema implementado. En conjunto, el procedimiento desarrollado permite cuantificar de manera confiable las respiraciones por minuto en distintos escenarios, validando su utilidad como herramienta de análisis en prácticas de laboratorio y en aplicaciones clínicas donde se requiera evaluar la función respiratoria bajo diferentes condiciones.
 
 
-- ## Preguntas
+- #### Preguntas
 
 
 ## Referencias 
