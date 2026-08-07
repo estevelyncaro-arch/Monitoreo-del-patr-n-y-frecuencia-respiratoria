@@ -297,6 +297,7 @@ En reposo, la señal se caracteriza por su estabilidad, amplitud baja y patrón 
 
 - #### Preguntas
 
+1. 
 
 ## Referencias 
 
