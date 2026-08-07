@@ -297,7 +297,11 @@ En reposo, la señal se caracteriza por su estabilidad, amplitud baja y patrón 
 
 - #### Preguntas
 
-1. 
+1. ¿Son los patrones respiratorios y frecuencias respiratoriasiguales o diferentes en cada caso? ¿A qué se debe esto?
+
+Los patrones respiratorios al estar en reposo y al leer son diferentes debido a que en la respiración en reposo se ve una onda periódica presentando una amplitud relativamente constante y picos distribuidos de manera uniforme a lo largo del tiempo, mientras que durante la lectura, la señal tiene amplitudes más variables en su forma, se observan cambios bruscos en la señal, donde aparecen perturbaciones que pueden deberse a movimientos del paciente lo que cambia la resistencia del sensor debido a la presión ejercida. Además al analizar el espectro de frecuencias observamos que en reposo se concentra en la frecuencia dominante demostrando que es estable, por otro lado al leer el espectro de freciencia es más disperso mostrando que es menos uniforme al tener mayor contenido en otras frecuencias.
+
+2. ¿Cuáles serían las ventajas y desventajas de emplear múltiplessensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían serlas razones?
 
 ## Referencias 
 
